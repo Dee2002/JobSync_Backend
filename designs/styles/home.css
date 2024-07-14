@@ -1,0 +1,353 @@
+:root {
+    --primary-color: #070828;
+    --secondary-color: #B2B1FF;
+    --cta-color: #8C8AFF;
+    --tetiary-color: #EBEDF0;
+}
+
+button p {
+    font-weight: 600;
+}
+
+main {
+    padding: 0;
+    width: 100%;
+}
+
+section {
+    padding: 20px 10%;
+}
+
+section p {
+    opacity: .5;
+}
+
+section.jobs-company-candidates {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 40px 10%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 80%; */
+}
+
+section.jobs-company-candidates p {
+    opacity: 50%;
+}
+
+section.jobs-company-candidates .potential h2 {
+    font-size: 40px;
+}
+
+section.jobs-company-candidates .potential h2 span {
+    color: var(--cta-color)
+}
+
+section.jobs-company-candidates .sectors {
+    /* line-height: 50px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section.jobs-company-candidates .sectors span {
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin: 10px 20px;
+}
+
+section.jobs-company-candidates .job-company-count {
+    display: flex;
+    flex-direction: row;
+    /* width: 80%; */
+    align-self: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+section.jobs-company-candidates .job-company-count span {
+    margin: 0 10px;
+}
+
+section.jobs-company-candidates .job-company-count p[class$="count"] {
+    opacity: 1;
+    font-size: xx-large;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+section.who-we-are {
+    padding: 20px 10%;
+    color: var(--primary-color);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 10%;
+}
+
+section.who-we-are p {
+    opacity: 50%;
+}
+
+section.who-we-are .left {
+    width: 45%;
+    text-align: justify;
+}
+
+section.who-we-are h3 {
+    font-size: 35px;
+    text-align: left;
+    margin: 0;
+}
+
+section.who-we-are button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0px 15px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+section.who-we-are button p {
+    opacity: 1;
+    font-size: 12px;
+    margin-right: auto;
+}
+
+section.who-we-are .left img {
+    width: 15px;
+}
+
+section.who-we-are .right {
+    width: 45%;
+}
+
+section.who-we-are .right img {
+    width: 100%;
+}
+
+section.latest-featured-jobs {
+    background-color: var(--tetiary-color);
+    color: var(--primary-color);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+}
+
+section.latest-featured-jobs h3 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.jobs-header {
+    width: 60%;
+    align-self: center;
+}
+
+.featured-jobs {
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+}
+
+.job-card {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.featured-jobs .logo-and-name {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    align-items: center;
+}
+
+.featured-jobs .logo-and-name img {
+    width: 35px;
+    margin-right: 15px;
+}
+
+.company-name,
+.job-type {
+    margin: 0;
+}
+
+.company-name {
+    opacity: 1;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.job-title {
+    margin-top: 20px;
+    margin-bottom: 0;
+    color: var(--cta-color);
+    opacity: 1;
+    font-weight: bold;
+}
+
+.job-salary {
+    opacity: 1;
+    font-weight: bold;
+    margin: 0;
+}
+
+.job-skills {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.job-skills span {
+    background-color: var(--tetiary-color);
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+}
+
+.job-skills span p {
+    opacity: .5;
+    margin: 0;
+}
+
+.browse-more {
+    margin: 50px;
+}
+
+.browse-more-cta {
+    border: none;
+    background-color: var(--cta-color);
+    padding: 20px 35px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 800;
+}
+
+section.contact-us {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10%;
+}
+
+.contact-us .cta-text {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-us h3 {
+    font-size: 45px;
+    margin: 0;
+}
+
+.contact-us .contacts {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+[class^="contacts-"] {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    min-width: 50%;
+}
+
+[class^="contacts-"] img {
+    width: 25px;
+    margin-right: 10px;
+}
+
+[class$="-details"] h4 {
+    margin: 0;
+}
+
+[class$="-details"] {
+    margin-bottom: 25px;
+}
+
+[class$="-details"] p {
+    margin: 0;
+}
+
+.cta-image {
+    width: 40%;
+}
+
+.cta-image img {
+    width: 90%;
+}
+
+@media only screen and (max-width: 900px) {
+    .featured-jobs {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+
+    .job-card {
+        width: 70%;
+    }
+
+    section.contact-us {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-us .cta-text {
+        width: 100%;
+    }
+
+    .contact-us h3 {
+        font-size: 35px;
+    }
+
+    .contact-us .contacts {
+        margin-top: 20px;
+    }
+
+    .cta-image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cta-image img {
+        width: 50%;
+        align-self: center;
+    }
+
+    section.who-we-are {
+        flex-direction: column;
+    }
+
+    section.who-we-are .left {
+        width: 100%;
+    }
+
+    section.who-we-are .right {
+        display: none;
+    }
+}
